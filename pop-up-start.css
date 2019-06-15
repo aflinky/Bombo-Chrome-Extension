@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    /* background-color: black; */
+}
+
+body {
+    display: flex;
+    flex-flow: column wrap;
+    justify-items: center;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    height: 180px;
+    width: 200px;
+    border: solid 1px black;
+    background: no-repeat;
+    background-size: 60%;
+    background-position: -26px 5px;
+}
+
+p {
+    font-size: 24px;
+}
+
+#timer {
+    color: red;
+    text-align: center;
+    /* font-size: 50px;
+    font-weight: 900; */
+}
+
+#timer p {
+    color: black;
+    text-align: center;
+}
+
+form {
+    /* background-color: lightcyan; */
+    height: 100px;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+    width: 90%;
+    font-size: 16px;
+}
+
+input {
+    height: 45px;
+    width: 100px;
+    outline: none;
+    text-align: center;
+    font-size: 30px;
+}
+
+button, #disarm {
+    /* background-color: pink; */
+    /* margin-left: 20px; */
+    width: 100%;
+    height: 30px;
+    border-radius: 30px;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: 8px;
+    outline: none;
+}
+
+input[type=number]::-webkit-inner-spin-button, 
+input[type=number]::-webkit-outer-spin-button { 
+  -webkit-appearance: none; 
+  margin: 0; 
+}
