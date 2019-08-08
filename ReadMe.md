@@ -3,7 +3,7 @@
 
 ![Image of Bombo Logo](/icon_icon.png)
 
-### **Do you ever find yourself falling into youtube or social media holes for longer than you planned?**
+### **Do you ever take a break for longer than you planned?**
 Well, now you can set definitive time limits on your breaks!
 
 Set a timer for your break
