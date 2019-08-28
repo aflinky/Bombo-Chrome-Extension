@@ -1,6 +1,6 @@
 {
     "name": "Bombo Chrome Extenstion",
-    "version": "1.0",
+    "version": "0.0.0.1",
     "description": "To help your productivity! (Keeping tabs on your break)",
     "permissions": ["storage", "tabs", "sessions", "history", "windows"],
     "background": {
