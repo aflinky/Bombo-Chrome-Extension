@@ -1,12 +1,5 @@
 "use strict";
 
-// function getMins() {
-//     timerObj.minutes = document.querySelector('#minutes').value;
-// }
-
-//const timerMins = getMins();
-
-//console.log(timerMins);
 const newTabsMade = [];
 
 const timerObj = {
@@ -105,15 +98,11 @@ ourButton.addEventListener('click', function (refresh) {
     })
 
     chrome.tabs.onCreated.addListener(function (tab) {
-        // console.log('adding', tab.id);
         newTabsMade.push(tab.id);
     });
 
     chrome.tabs.onRemoved.addListener(function (tab) {
-        // console.log('we in here');
-        // console.log('trying to remove', tab);
         const indexOfTabInArr = newTabsMade.indexOf(tab);
-        // console.log(indexOfTabInArr);
         if (indexOfTabInArr > -1 ) {
             newTabsMade.splice(indexOfTabInArr, 1);
         }
